@@ -30,9 +30,9 @@ pip3 install --user jsonschema
 sudo apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
 ```
 
-Clone PX4 Autopilot repo from [here](https://github.com/yanshuolee/PX4-Autopilot).
+Unzip `PX4-Autopilot.zip` and go to PX4-Autopilot folder.
 ```
-git clone https://github.com/yanshuolee/PX4-Autopilot.git
+cd PX4-Autopilot
 git submodule update --init --recursive
 DONT_RUN=1 make px4_sitl_default gazebo
 ```
